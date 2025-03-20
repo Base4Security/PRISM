@@ -1,0 +1,26 @@
+
+
+{
+    "id": "apt-001",
+    "name": "APT Group Alpha",
+    "updatedDate": "2024-01-15",
+    "version": "1.0",
+    "aptSummary": "Summary text...",
+    "aptTargetProfileTags": ["finance", "energy"],
+    "bigFive": {
+      "Openness": 4,
+      "Conscientiousness": 3,
+      "Extraversion": 2,
+      "Agreeableness": 5,
+      "Neuroticism": 1
+    },
+    "darkTetrad": {
+      "Machiavellianism": 3,
+      "Narcissism": 4,
+      "Psychopathy": 2,
+      "Sadism": 3
+    },
+    "aptRecommendations": "Recommendation text...",
+    "referenceCases": ["Case1", "Case2"]
+  }
+  
