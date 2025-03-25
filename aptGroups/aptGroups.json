@@ -1,6 +1,8 @@
 
 
 {
+  "apts":[
+    {
     "id": "apt-001",
     "name": "APT Group Alpha",
     "updatedDate": "2024-01-15",
@@ -22,5 +24,30 @@
     },
     "aptRecommendations": "Recommendation text...",
     "referenceCases": ["Case1", "Case2"]
+  },
+  {
+    "id": "APT28",
+    "name": "APT28 (Fancy Bear / Sofacy / Pawn Storm)",
+    "updatedDate": "2024-01-15",
+    "version": "1.0",
+    "aptSummary": "APT28 is a cyber espionage group believed to have strong ties to the Russian Main Intelligence Directorate (GRU). They have been active since at least 2004, possibly 2007, with their primary goals being espionage and information theft. Typically targets governments, military and security organizations, and other strategic sectors such as media, oil and gas, and energy infrastructure . The group employs advanced tactics including spear-phishing, exploitation of emerging vulnerabilities, and the use of custom malware. Their operations are characterized by being well-coordinated, slow, and stealthy, aiming for long-term infiltration into targeted networks.",
+    "aptTargetProfileTags": ["governments", "military", "security", "media", "oil and gas", "energy infrastructure"],
+    "bigFive": {
+      "Openness": 4,
+      "Conscientiousness": 5,
+      "Extraversion": 2,
+      "Agreeableness": 1,
+      "Neuroticism": 3
+    },
+    "darkTetrad": {
+      "Machiavellianism": 0,
+      "Narcissism": 0,
+      "Psychopathy": 0,
+      "Sadism": 0
+    },
+    "aptRecommendations": "Recommendations Soon",
+    "referenceCases": ["MITRE ATT&CK"]
   }
+  ]
+}
   
