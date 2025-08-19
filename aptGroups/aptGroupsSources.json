@@ -1,0 +1,59 @@
+{
+  "sources": {
+    "APT29": [
+      "https://www.fireeye.com/blog/threat-research/2023/06/apt29-deep-dive-russian-cyber-espionage.html",
+      "https://www.ncsc.gov.uk/report/apt29-cozy-bear-analysis",
+      "https://www.microsoft.com/security/blog/2023/07/apt29-nobelium-cyber-espionage"
+    ],
+    "APT28": [
+      "https://www.ncsc.gov.uk/report/apt28-russian-military-intelligence",
+      "https://www.fireeye.com/blog/threat-research/2023/05/apt28-fancy-bear-operations",
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-198a"
+    ],
+    "APT40": [
+      "https://www.mandiant.com/resources/blog/apt40-chinese-cyber-espionage",
+      "https://www.ncsc.gov.uk/report/apt40-bronze-huntley-analysis",
+      "https://www.microsoft.com/security/blog/2023/06/apt40-southeast-asia-targeting"
+    ],
+    "APT35": [
+      "https://www.microsoft.com/security/blog/2023/09/05/apt35-iranian-cyber-espionage",
+      "https://www.fireeye.com/blog/threat-research/2023/08/apt35-charming-kitten",
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-221a"
+    ],
+    "Lazarus Group": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-221a",
+      "https://www.microsoft.com/security/blog/2023/07/lazarus-group-north-korea",
+      "https://www.fireeye.com/blog/threat-research/2023/06/lazarus-apt38-operations"
+    ],
+    "DarkSide": [
+      "https://www.recordedfuture.com/darkside-ransomware-evolution",
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-131a",
+      "https://www.fbi.gov/news/press-releases/fbi-releases-indicators-of-compromise-associated-with-darkside-ransomware"
+    ],
+    "Cozy Bear": [
+      "https://www.fireeye.com/blog/threat-research/2023/06/apt29-deep-dive-russian-cyber-espionage.html",
+      "https://www.ncsc.gov.uk/report/apt29-cozy-bear-analysis",
+      "https://www.microsoft.com/security/blog/2023/07/apt29-nobelium-cyber-espionage"
+    ],
+    "Fancy Bear": [
+      "https://www.ncsc.gov.uk/report/apt28-russian-military-intelligence",
+      "https://www.fireeye.com/blog/threat-research/2023/05/apt28-fancy-bear-operations",
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-198a"
+    ],
+    "Hidden Cobra": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-221a",
+      "https://www.microsoft.com/security/blog/2023/07/lazarus-group-north-korea",
+      "https://www.fireeye.com/blog/threat-research/2023/06/lazarus-apt38-operations"
+    ],
+    "Charming Kitten": [
+      "https://www.microsoft.com/security/blog/2023/09/05/apt35-iranian-cyber-espionage",
+      "https://www.fireeye.com/blog/threat-research/2023/08/apt35-charming-kitten",
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-221a"
+    ]
+  },
+  "metadata": {
+    "last_updated": "2024-12-19",
+    "total_apt_groups": 10,
+    "total_urls": 30
+  }
+}
