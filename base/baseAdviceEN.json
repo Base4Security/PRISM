@@ -1,0 +1,201 @@
+{
+    "Openness": {
+      "1": {
+        "indicator": "Predecible, siempre usa mismas herramientas y TTPs",
+        "defense": "IOC, firmas y detección clásica muy efectivas."
+      },
+      "2": {
+        "indicator": "Introduce pequeñas variaciones, raramente enfoques nuevos",
+        "defense": "IOC + reglas estáticas todavía muy efectivas; control de patching esencial."
+      },
+      "3": {
+        "indicator": "Usa herramientas nuevas para el grupo, pero conocidas en la comunidad",
+        "defense": "CTI tradicional funciona; priorizar detección por IOCs y TTPs conocidas."
+      },
+      "4": {
+        "indicator": "Adapta y combina TTPs conocidas de manera creativa y compleja",
+        "defense": "Hunting sobre cadenas de ataque no usuales; analizar correlaciones entre técnicas ya conocidas."
+      },
+      "5": {
+        "indicator": "Innovador, pionero, desarrolla 0-days, crea TTPs inéditas",
+        "defense": "IOC no sirve solo; usar detección por comportamiento, deception, hunting continuo."
+      }
+    },
+    "Conscientiousness": {
+      "1": {
+        "indicator": "Impulsivo y caótico, comete errores fácilmente",
+        "defense": "Alta probabilidad de detección temprana; reforzar IDS/IPS básicos."
+      },
+      "2": {
+        "indicator": "Planificación básica pero inconsistente en cubrir huellas",
+        "defense": "Detección en logs y correlaciones sencillas; alertas SIEM básicas pueden atraparlo."
+      },
+      "3": {
+        "indicator": "Sigue un plan pero puede cometer errores de seguridad a largo plazo",
+        "defense": "Buscar infraestructura reutilizada; hunting sobre patrones de repetición."
+      },
+      "4": {
+        "indicator": "Muy metódico, disciplinado, borra huellas con cuidado",
+        "defense": "Revisar logs en profundidad y a largo plazo; detección de patrones de sigilo y movimientos laterales limpios."
+      },
+      "5": {
+        "indicator": "Extremadamente meticuloso; incluso capaz de sembrar ruido falso",
+        "defense": "Revisar persistencia, correlaciones largas; no confiar en falsos positivos/negativos → threat hunting de largo plazo."
+      }
+    },
+    "Extraversion": {
+      "1": {
+        "indicator": "Fantasma: opera en secreto total, nunca atribuye",
+        "defense": "Difícil detectar por ruido; depende de inteligencia técnica (logs y CTI)."
+      },
+      "2": {
+        "indicator": "Funcional: comunica solo si es necesario (extorsión)",
+        "defense": "Monitorear comunicaciones de rescate; análisis de correos extorsivos."
+      },
+      "3": {
+        "indicator": "Pasivo: no busca fama, pero puede confirmar autoría en foros",
+        "defense": "Monitorear foros clandestinos; inteligencia HUMINT/Dark Web."
+      },
+      "4": {
+        "indicator": "Sugestivo: deja “pistas sutiles” o firmas",
+        "defense": "Buscar indicadores atípicos o “marcas” en sistemas; correlacionar con campañas conocidas."
+      },
+      "5": {
+        "indicator": "Notorio, busca fama, logos y comunicados",
+        "defense": "Monitorizar foros, leaks y canales de propaganda; activar inteligencia OSINT/CTI para anticipar campañas."
+      }
+    },
+    "Agreeableness": {
+      "1": {
+        "indicator": "Despiadado, sin reparos en atacar infraestructura crítica",
+        "defense": "Preparar planes de continuidad crítica; segmentar activos esenciales."
+      },
+      "2": {
+        "indicator": "Antagonista: frío/amenazante, busca máximo beneficio",
+        "defense": "Preparar equipos de negociación; resiliencia financiera y de continuidad."
+      },
+      "3": {
+        "indicator": "Transaccional: tono “profesional”, ataca corporaciones",
+        "defense": "Evaluar postura de seguridad corporativa; priorizar defensa en empresas de alto valor."
+      },
+      "4": {
+        "indicator": "Tiene “reglas”: evita atacar ciertos sectores",
+        "defense": "Mapear targets típicos y posibles exclusiones; inteligencia de amenazas enfocada en sectores específicos."
+      },
+      "5": {
+        "indicator": "“Con principios”: ataca solo lo que considera inmoral",
+        "defense": "Predecible en targets (sectores éticamente definidos); se puede perfilar por narrativa ideológica."
+      }
+    },
+    "Neuroticism": {
+      "1": {
+        "indicator": "Estable: se retira de forma controlada sin errores",
+        "defense": "Detectarlo no genera escalada; menos riesgo de contraataques impulsivos."
+      },
+      "2": {
+        "indicator": "Resiliente: si bloquean una herramienta, pausa y cambia con calma",
+        "defense": "Detección de técnicas alternativas secuenciales; cazar patrones de switching."
+      },
+      "3": {
+        "indicator": "Reactivo: desorganización temporal pero se reacomoda",
+        "defense": "Detectar picos de actividad anómala tras bloqueos; hunting de improvisaciones."
+      },
+      "4": {
+        "indicator": "Volátil: si pierde acceso, intenta recuperarlo agresivamente",
+        "defense": "Prepararse para escalada y respuestas agresivas tras detección; contención reforzada en fases post-intrusión."
+      },
+      "5": {
+        "indicator": "Inestable, vengativo, comete errores graves",
+        "defense": "Prepararse para escalada ruidosa tras detección; contención rápida y monitoreo de contraataques impulsivos."
+      }
+    },
+    "Machiavellianism": {
+      "1": {
+        "indicator": "Técnico puro: explota software, sin engaño humano",
+        "defense": "Enfoque en parches, WAF, hardening técnico; menor riesgo de insider."
+      },
+      "2": {
+        "indicator": "Engaño básico: phishing genérico",
+        "defense": "Awareness de usuarios, filtros de spam y phishing masivo suficientes."
+      },
+      "3": {
+        "indicator": "Híbrido: ataque técnico con una o dos tácticas de engaño",
+        "defense": "Controles mixtos: hardening + awareness contra phishing."
+      },
+      "4": {
+        "indicator": "Estratega: manipulación central, pretextos creíbles sostenidos",
+        "defense": "Controles contra spear phishing dirigido, monitoreo de redes sociales y anomalías de insider."
+      },
+      "5": {
+        "indicator": "Maestro manipulador, operaciones 100% engaño humano",
+        "defense": "Formación anti-phishing, protección insider, detección de perfiles falsos, monitoreo de redes sociales."
+      }
+    },
+    "Narcissism": {
+      "1": {
+        "indicator": "Funcional: elige víctimas por facilidad, no por estatus",
+        "defense": "Proteger los activos más vulnerables; análisis de postura general."
+      },
+      "2": {
+        "indicator": "Orgullo técnico en foros privados",
+        "defense": "Monitorear foros underground para detectar señales tempranas."
+      },
+      "3": {
+        "indicator": "Impulsado por estatus: elige blancos de alto perfil",
+        "defense": "Priorizar defensa en infraestructuras críticas y objetivos de prestigio."
+      },
+      "4": {
+        "indicator": "Jactancioso: deja mensajes/firmas para mostrar superioridad",
+        "defense": "Revisar SIEM en busca de mensajes incrustados, comentarios o modificaciones inusuales en sistemas."
+      },
+      "5": {
+        "indicator": "Exhibicionista, ridiculiza públicamente",
+        "defense": "Monitorear leaks, dark web y comunicados; defensas de reputación; detección temprana en intrusiones “teatrales”."
+      }
+    },
+    "Psychopathy": {
+      "1": {
+        "indicator": "Averso al riesgo: prioriza sigilo, evita técnicas ruidosas",
+        "defense": "Difícil detectar por alertas; requiere hunting de comportamiento muy sutil."
+      },
+      "2": {
+        "indicator": "Cauteloso: evita riesgos, salvo menores y controlados",
+        "defense": "Requiere hunting avanzado; difícil de detectar por ruido → usar EDR/XDR."
+      },
+      "3": {
+        "indicator": "Riesgo calculado: usa alguna técnica ruidosa por recompensa alta",
+        "defense": "Preparar respuesta ante incidentes de alto impacto; correlaciones con eventos inusuales."
+      },
+      "4": {
+        "indicator": "Arriesgado: confía en evadir captura, usa TTPs peligrosas con frecuencia",
+        "defense": "Detección tradicional (IDS/IPS) aún útil; reforzar correlaciones con alertas “ruidosas”."
+      },
+      "5": {
+        "indicator": "Temerario, usa TTPs ruidosas sin cálculo",
+        "defense": "Alto valor de detección tradicional (IDS/IPS), ya que no se preocupa por ocultar huellas."
+      }
+    },
+    "Sadism": {
+      "1": {
+        "indicator": "Indiferente: si la víctima paga, devuelve archivos",
+        "defense": "Estrategia de backup + plan de recuperación puede ser suficiente."
+      },
+      "2": {
+        "indicator": "Burlón: lenguaje condescendiente, pero pago sigue siendo el objetivo",
+        "defense": "Preparar comunicación de crisis frente a ataques extorsivos."
+      },
+      "3": {
+        "indicator": "Juego de poder: presiona, renegocia, sube precios",
+        "defense": "Preparar estrategia de negociación y planes de backup alternativos."
+      },
+      "4": {
+        "indicator": "Cruel: prolonga sufrimiento, falsas esperanzas, humillaciones",
+        "defense": "Planes de resiliencia y negociación; preparación psicológica/comunicacional en incidentes."
+      },
+      "5": {
+        "indicator": "Atormentador: destruye datos por placer",
+        "defense": "Backups inmutables y planes de resiliencia imprescindibles: no confiar en negociación."
+      }
+    }
+  }
+  

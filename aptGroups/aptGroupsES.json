@@ -1,0 +1,122 @@
+
+
+{
+  "apts": [
+    {
+      "id": "APT29",
+      "name": "APT29 (Cozy Bear / The Dukes)",
+      "updatedDate": "2025-01-15",
+      "version": "1.0",
+      "aptSummary": "A Russian state-sponsored threat group linked to the Foreign Intelligence Service (SVR). It is known for highly sophisticated cyber espionage campaigns, targeting governments, think tanks, and research institutions. Their operations are stealthy, leveraging custom malware, living-off-the-land techniques, and advanced persistence to maintain long-term access to strategic networks.",
+      "aptTargetProfileTags": ["governments", "diplomatic", "energy"],
+      "bigFive": {
+        "Openness": 5,
+        "Conscientiousness": 5,
+        "Extraversion": 1,
+        "Agreeableness": 1,
+        "Neuroticism": 2
+      },
+      "darkTetrad": {
+        "Machiavellianism": 5,
+        "Narcissism": 3,
+        "Psychopathy": 5,
+        "Sadism": 1
+      },
+      "aptRecommendations": "Recommendation text...",
+      "referenceCases": ["Case1", "Case2"]
+    },
+    {
+      "id": "APT28",
+      "name": "APT28 (Fancy Bear / Sofacy / Pawn Storm)",
+      "updatedDate": "2025-01-15",
+      "version": "1.0",
+      "aptSummary": "Associated with Russia’s GRU military intelligence. Active since at least 2004, it conducts cyber espionage and information warfare. Its campaigns focus on governments, military organizations, defense contractors, media, and energy sectors. The group is notorious for spear-phishing, credential theft, exploiting zero-days, and spreading disinformation during political events.",
+      "aptTargetProfileTags": ["governments", "military", "media"],
+      "bigFive": {
+        "Openness": 5,
+        "Conscientiousness": 4,
+        "Extraversion": 1,
+        "Agreeableness": 1,
+        "Neuroticism": 2
+      },
+      "darkTetrad": {
+        "Machiavellianism": 4,
+        "Narcissism": 4,
+        "Psychopathy": 4,
+        "Sadism": 4
+      },
+      "aptRecommendations": "Recommendation text...",
+      "referenceCases": ["Case1", "Case2"]
+    },
+    {
+      "id": "APT38",
+      "name": "APT38 (Lazarus subgroup)",
+      "updatedDate": "2025-01-15",
+      "version": "1.0",
+      "aptSummary": "A financially motivated subgroup of the North Korean Lazarus collective. It specializes in large-scale cyber heists, particularly against banks and financial institutions, often exploiting the SWIFT interbank system. APT38 has been linked to thefts amounting to hundreds of millions of dollars, using custom malware and destructive wipers to cover its tracks.",
+      "aptTargetProfileTags": ["financial", "banking", "SWIFT"],
+      "bigFive": {
+        "Openness": 5,
+        "Conscientiousness": 5,
+        "Extraversion": 1,
+        "Agreeableness": 2,
+        "Neuroticism": 2
+      },
+      "darkTetrad": {
+        "Machiavellianism": 5,
+        "Narcissism": 1,
+        "Psychopathy": 2,
+        "Sadism": 1
+      },
+      "aptRecommendations": "Recommendation text...",
+      "referenceCases": ["Case1", "Case2"]
+    },
+    {
+      "id": "APT41",
+      "name": "APT41 (Barium / Winnti)",
+      "updatedDate": "2025-01-15",
+      "version": "1.0",
+      "aptSummary": "A Chinese state-backed group conducting both espionage and financially motivated operations. Its campaigns span healthcare, telecom, and technology sectors worldwide. Known for supply chain compromises, backdoors, and advanced malware, APT41 demonstrates flexibility in balancing state objectives with profit-driven attacks, including ransomware deployment.",
+      "aptTargetProfileTags": ["healthcare", "telecom", "technology"],
+      "bigFive": {
+        "Openness": 5,
+        "Conscientiousness": 4,
+        "Extraversion": 1,
+        "Agreeableness": 1,
+        "Neuroticism": 2
+      },
+      "darkTetrad": {
+        "Machiavellianism": 4,
+        "Narcissism": 3,
+        "Psychopathy": 3,
+        "Sadism": 1
+      },
+      "aptRecommendations": "Recommendation text...",
+      "referenceCases": ["Case1", "Case2"]
+    },
+    {
+      "id": "APT44",
+      "name": "APT44 (Sandworm Team)",
+      "updatedDate": "2025-01-15",
+      "version": "1.0",
+      "aptSummary": "A Russian cyber unit tied to the GRU, infamous for disruptive and destructive operations. It has targeted energy grids, critical infrastructure, and government systems, most notably in Ukraine. The group is responsible for major incidents such as the BlackEnergy attacks, NotPetya, and Industroyer. Its operations blend cyber warfare with geopolitical objectives.",
+      "aptTargetProfileTags": ["energy", "critical infrastructure", "government"],
+      "bigFive": {
+        "Openness": 5,
+        "Conscientiousness": 5,
+        "Extraversion": 4,
+        "Agreeableness": 1,
+        "Neuroticism": 4
+      },
+      "darkTetrad": {
+        "Machiavellianism": 4,
+        "Narcissism": 5,
+        "Psychopathy": 5,
+        "Sadism": 1
+      },
+      "aptRecommendations": "Recommendation text...",
+      "referenceCases": ["Case1", "Case2"]
+    }
+  ]
+}
+  
