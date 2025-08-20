@@ -1,0 +1,83 @@
+{
+    "ClusterProfile": [
+    {
+      "macro_profile": "Innovadores manipuladores silenciosos",
+      "central_traits": {
+        "Openness": "5 → innovadores, crean TTPs inéditas, 0-days",
+        "Conscientiousness": "4–5 → meticulosos, operaciones muy planificadas",
+        "Machiavellianism": "5 → maestros del engaño humano, spear-phishing avanzado",
+        "Narcissism": "1–2 → no buscan fama, perfil bajo",
+        "Psychopathy": "1–2 → evitan ruido, alta disciplina operacional",
+        "Sadism": "1 → rara vez destruyen datos, buscan persistencia"
+      },
+      "operational_profile": "Altísima persistencia: infiltraciones a largo plazo, espionaje sostenido. Sigilosos: técnicas diseñadas para no dejar huella (living off the land, cifrado, OPSEC muy alto). Manipulación humana: phishing hiper-dirigido, ingeniería social selectiva. Objetivo: inteligencia geopolítica, acceso estratégico, nunca notoriedad.",
+      "APT": ["APT29", "APT38"],
+      "Defense": {
+        "main_mitigation": [
+          "Zero Trust + microsegmentación → limitar movimientos laterales en operaciones persistentes",
+          "Deception (honeypots/baits realistas) → para romper su cálculo y obligarlos a mostrar técnicas ocultas",
+          "Análisis de anomalías en logs (detección temprana de persistencia, exfiltración silenciosa)"
+        ],
+        "preventive_defense": [
+          "Gestión estricta de identidades y privilegios mínimos",
+          "Rotación de credenciales y detección de uso fuera de horario normal",
+          "Threat hunting continuo buscando TTPs 'low & slow'"
+        ],
+        "disruptive_measure": "Insertar falsos positivos y ruido en la red para desestabilizar su modelo de largo plazo"
+      }
+    },
+    {
+      "macro_profile": "Innovadores manipuladores ruidosos/narcisistas",
+      "central_traits": {
+        "Openness": "5 → innovadores, con nuevas TTPs",
+        "Conscientiousness": "4–5 → bien planeados, aunque con sesgo a lo ruidoso",
+        "Machiavellianism": "4–5 → usan manipulación cuando conviene",
+        "Narcissism": "4–5 → buscan visibilidad, campañas públicas, propaganda",
+        "Psychopathy": "4–5 → ataques temerarios, poco cálculo de riesgos",
+        "Sadism": "3–4 → inclinación a borrar datos o causar daño gratuito"
+      },
+      "operational_profile": "Alta exposición mediática: campañas que buscan impacto, hack-and-leak, filtraciones públicas. Ataques ruidosos: uso de malware propio y visible, operaciones de denegación/disrupción. Menos disciplina OPSEC: cometen errores, pero compensan con agresividad. Objetivo: influencia política, desestabilización, propaganda, humillación del adversario.",
+      "APT": ["APT28", "APT44"],
+      "Defense": {
+        "main_mitigation": [
+          "EDR/XDR con reglas de comportamiento → porque generan eventos ruidosos fáciles de detectar",
+          "Automatización de contención (isolar endpoint/red cuando se detecta comportamiento caótico)",
+          "Uso de IOC feeds en tiempo real → suelen reciclar malware y C2 conocidos"
+        ],
+        "preventive_defense": [
+          "Entrenamiento de SOC en análisis rápido de alertas múltiples",
+          "Parches y hardening básicos (estos atacantes explotan vectores fáciles)",
+          "Monitor de abuso en credenciales privilegiadas temporales"
+        ],
+        "disruptive_measure": "Responder rápido → aprovechar su impulsividad para hacerlos abortar operación. Señuelos que expongan sus errores y permitan atribución temprana."
+      }
+    },
+    {
+      "macro_profile": "Innovadores manipuladores balanceados",
+      "central_traits": {
+        "Openness": "5 → también innovador",
+        "Conscientiousness": "4 → meticuloso, pero con flexibilidad táctica",
+        "Machiavellianism": "4–5 → manipulación técnica + humana",
+        "Narcissism": "3 → cierto interés en status, pero no prioridad",
+        "Psychopathy": "3 → algunas operaciones ruidosas si lo amerita, pero no constantes",
+        "Sadism": "2 → rara vez destruyen datos salvo por coerción"
+      },
+      "Perfil_Operativo": "Híbrido espionaje–cibercrimen: robo financiero + espionaje político. Balance entre sigilo y exposición: pueden ser discretos o ruidosos según convenga. Altamente adaptables: flexibilidad en TTPs, ajustan según objetivos y nivel de riesgo. Objetivo: monetización + inteligencia, con elasticidad de roles (APT y criminal).",
+      "APT": ["APT41"],
+      "Defense": {
+        "main_mitigation": [
+          "Plan de respuesta a incidentes con comunicación integrada (manejo de crisis reputacional)",
+          "Backup inmutable + DRP → resiliencia frente a destrucción de datos",
+          "Monitoreo de leaks y dark web → detección temprana de filtración como parte de la presión"
+        ],
+        "preventive_defense": [
+          "Sensibilización ejecutiva (estos grupos apuntan a causar impacto público)",
+          "Segmentación de entornos críticos para limitar el 'shock inicial' del ataque",
+          "Ensayos de ransomware tabletop exercises"
+        ],
+        "disruptive_measure": "Negación de exposición pública → reducir su visibilidad (cierre rápido de leaks). Uso de counter-narratives o monitoreo activo en foros para cortar su motivación de 'fama'."
+      }
+    }
+  ]
+}
+  

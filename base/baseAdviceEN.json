@@ -1,200 +1,200 @@
 {
     "Openness": {
       "1": {
-        "indicator": "Predecible, siempre usa mismas herramientas y TTPs",
-        "defense": "IOC, firmas y detección clásica muy efectivas."
+        "indicator": "Predictable, always uses same tools and TTPs",
+        "defense": "IOC, signatures and classic detection very effective."
       },
       "2": {
-        "indicator": "Introduce pequeñas variaciones, raramente enfoques nuevos",
-        "defense": "IOC + reglas estáticas todavía muy efectivas; control de patching esencial."
+        "indicator": "Introduces small variations, rarely new approaches",
+        "defense": "IOC + static rules still very effective; patch management essential."
       },
       "3": {
-        "indicator": "Usa herramientas nuevas para el grupo, pero conocidas en la comunidad",
-        "defense": "CTI tradicional funciona; priorizar detección por IOCs y TTPs conocidas."
+        "indicator": "Uses new tools for the group, but known in the community",
+        "defense": "Traditional CTI works; prioritize detection by known IOCs and TTPs."
       },
       "4": {
-        "indicator": "Adapta y combina TTPs conocidas de manera creativa y compleja",
-        "defense": "Hunting sobre cadenas de ataque no usuales; analizar correlaciones entre técnicas ya conocidas."
+        "indicator": "Adapts and combines known TTPs in creative and complex ways",
+        "defense": "Hunting on unusual attack chains; analyze correlations between already known techniques."
       },
       "5": {
-        "indicator": "Innovador, pionero, desarrolla 0-days, crea TTPs inéditas",
-        "defense": "IOC no sirve solo; usar detección por comportamiento, deception, hunting continuo."
+        "indicator": "Innovative, pioneer, develops 0-days, creates unprecedented TTPs",
+        "defense": "IOC not useful alone; use behavioral detection, deception, continuous hunting."
       }
     },
     "Conscientiousness": {
       "1": {
-        "indicator": "Impulsivo y caótico, comete errores fácilmente",
-        "defense": "Alta probabilidad de detección temprana; reforzar IDS/IPS básicos."
+        "indicator": "Impulsive and chaotic, makes mistakes easily",
+        "defense": "High probability of early detection; reinforce basic IDS/IPS."
       },
       "2": {
-        "indicator": "Planificación básica pero inconsistente en cubrir huellas",
-        "defense": "Detección en logs y correlaciones sencillas; alertas SIEM básicas pueden atraparlo."
+        "indicator": "Basic planning but inconsistent in covering tracks",
+        "defense": "Detection in logs and simple correlations; basic SIEM alerts can catch it."
       },
       "3": {
-        "indicator": "Sigue un plan pero puede cometer errores de seguridad a largo plazo",
-        "defense": "Buscar infraestructura reutilizada; hunting sobre patrones de repetición."
+        "indicator": "Follows a plan but may make long-term security mistakes",
+        "defense": "Look for reused infrastructure; hunting on repetition patterns."
       },
       "4": {
-        "indicator": "Muy metódico, disciplinado, borra huellas con cuidado",
-        "defense": "Revisar logs en profundidad y a largo plazo; detección de patrones de sigilo y movimientos laterales limpios."
+        "indicator": "Very methodical, disciplined, carefully erases tracks",
+        "defense": "Review logs in depth and long-term; detection of stealth patterns and clean lateral movements."
       },
       "5": {
-        "indicator": "Extremadamente meticuloso; incluso capaz de sembrar ruido falso",
-        "defense": "Revisar persistencia, correlaciones largas; no confiar en falsos positivos/negativos → threat hunting de largo plazo."
+        "indicator": "Extremely meticulous; even capable of planting false noise",
+        "defense": "Review persistence, long correlations; don't trust false positives/negatives → long-term threat hunting."
       }
     },
     "Extraversion": {
       "1": {
-        "indicator": "Fantasma: opera en secreto total, nunca atribuye",
-        "defense": "Difícil detectar por ruido; depende de inteligencia técnica (logs y CTI)."
+        "indicator": "Ghost: operates in total secrecy, never attributes",
+        "defense": "Difficult to detect by noise; depends on technical intelligence (logs and CTI)."
       },
       "2": {
-        "indicator": "Funcional: comunica solo si es necesario (extorsión)",
-        "defense": "Monitorear comunicaciones de rescate; análisis de correos extorsivos."
+        "indicator": "Functional: communicates only if necessary (extortion)",
+        "defense": "Monitor ransom communications; analysis of extortion emails."
       },
       "3": {
-        "indicator": "Pasivo: no busca fama, pero puede confirmar autoría en foros",
-        "defense": "Monitorear foros clandestinos; inteligencia HUMINT/Dark Web."
+        "indicator": "Passive: doesn't seek fame, but may confirm authorship in forums",
+        "defense": "Monitor underground forums; HUMINT/Dark Web intelligence."
       },
       "4": {
-        "indicator": "Sugestivo: deja “pistas sutiles” o firmas",
-        "defense": "Buscar indicadores atípicos o “marcas” en sistemas; correlacionar con campañas conocidas."
+        "indicator": "Suggestive: leaves 'subtle clues' or signatures",
+        "defense": "Look for atypical indicators or 'marks' in systems; correlate with known campaigns."
       },
       "5": {
-        "indicator": "Notorio, busca fama, logos y comunicados",
-        "defense": "Monitorizar foros, leaks y canales de propaganda; activar inteligencia OSINT/CTI para anticipar campañas."
+        "indicator": "Notorious, seeks fame, logos and statements",
+        "defense": "Monitor forums, leaks and propaganda channels; activate OSINT/CTI intelligence to anticipate campaigns."
       }
     },
     "Agreeableness": {
       "1": {
-        "indicator": "Despiadado, sin reparos en atacar infraestructura crítica",
-        "defense": "Preparar planes de continuidad crítica; segmentar activos esenciales."
+        "indicator": "Ruthless, no qualms about attacking critical infrastructure",
+        "defense": "Prepare critical continuity plans; segment essential assets."
       },
       "2": {
-        "indicator": "Antagonista: frío/amenazante, busca máximo beneficio",
-        "defense": "Preparar equipos de negociación; resiliencia financiera y de continuidad."
+        "indicator": "Antagonistic: cold/threatening, seeks maximum benefit",
+        "defense": "Prepare negotiation teams; financial and continuity resilience."
       },
       "3": {
-        "indicator": "Transaccional: tono “profesional”, ataca corporaciones",
-        "defense": "Evaluar postura de seguridad corporativa; priorizar defensa en empresas de alto valor."
+        "indicator": "Transactional: 'professional' tone, attacks corporations",
+        "defense": "Evaluate corporate security posture; prioritize defense in high-value companies."
       },
       "4": {
-        "indicator": "Tiene “reglas”: evita atacar ciertos sectores",
-        "defense": "Mapear targets típicos y posibles exclusiones; inteligencia de amenazas enfocada en sectores específicos."
+        "indicator": "Has 'rules': avoids attacking certain sectors",
+        "defense": "Map typical targets and possible exclusions; threat intelligence focused on specific sectors."
       },
       "5": {
-        "indicator": "“Con principios”: ataca solo lo que considera inmoral",
-        "defense": "Predecible en targets (sectores éticamente definidos); se puede perfilar por narrativa ideológica."
+        "indicator": "'Principled': attacks only what it considers immoral",
+        "defense": "Predictable in targets (ethically defined sectors); can be profiled by ideological narrative."
       }
     },
     "Neuroticism": {
       "1": {
-        "indicator": "Estable: se retira de forma controlada sin errores",
-        "defense": "Detectarlo no genera escalada; menos riesgo de contraataques impulsivos."
+        "indicator": "Stable: withdraws in controlled manner without errors",
+        "defense": "Detecting it doesn't generate escalation; less risk of impulsive counterattacks."
       },
       "2": {
-        "indicator": "Resiliente: si bloquean una herramienta, pausa y cambia con calma",
-        "defense": "Detección de técnicas alternativas secuenciales; cazar patrones de switching."
+        "indicator": "Resilient: if a tool is blocked, pauses and changes calmly",
+        "defense": "Detection of sequential alternative techniques; hunt switching patterns."
       },
       "3": {
-        "indicator": "Reactivo: desorganización temporal pero se reacomoda",
-        "defense": "Detectar picos de actividad anómala tras bloqueos; hunting de improvisaciones."
+        "indicator": "Reactive: temporary disorganization but reorganizes",
+        "defense": "Detect anomalous activity spikes after blocks; hunting improvisations."
       },
       "4": {
-        "indicator": "Volátil: si pierde acceso, intenta recuperarlo agresivamente",
-        "defense": "Prepararse para escalada y respuestas agresivas tras detección; contención reforzada en fases post-intrusión."
+        "indicator": "Volatile: if access is lost, tries to recover it aggressively",
+        "defense": "Prepare for escalation and aggressive responses after detection; reinforced containment in post-intrusion phases."
       },
       "5": {
-        "indicator": "Inestable, vengativo, comete errores graves",
-        "defense": "Prepararse para escalada ruidosa tras detección; contención rápida y monitoreo de contraataques impulsivos."
+        "indicator": "Unstable, vengeful, makes serious mistakes",
+        "defense": "Prepare for noisy escalation after detection; rapid containment and monitoring of impulsive counterattacks."
       }
     },
     "Machiavellianism": {
       "1": {
-        "indicator": "Técnico puro: explota software, sin engaño humano",
-        "defense": "Enfoque en parches, WAF, hardening técnico; menor riesgo de insider."
+        "indicator": "Pure technical: exploits software, no human deception",
+        "defense": "Focus on patches, WAF, technical hardening; lower insider risk."
       },
       "2": {
-        "indicator": "Engaño básico: phishing genérico",
-        "defense": "Awareness de usuarios, filtros de spam y phishing masivo suficientes."
+        "indicator": "Basic deception: generic phishing",
+        "defense": "User awareness, spam filters and mass phishing sufficient."
       },
       "3": {
-        "indicator": "Híbrido: ataque técnico con una o dos tácticas de engaño",
-        "defense": "Controles mixtos: hardening + awareness contra phishing."
+        "indicator": "Hybrid: technical attack with one or two deception tactics",
+        "defense": "Mixed controls: hardening + phishing awareness."
       },
       "4": {
-        "indicator": "Estratega: manipulación central, pretextos creíbles sostenidos",
-        "defense": "Controles contra spear phishing dirigido, monitoreo de redes sociales y anomalías de insider."
+        "indicator": "Strategist: central manipulation, sustained credible pretexts",
+        "defense": "Controls against targeted spear phishing, social media monitoring and insider anomalies."
       },
       "5": {
-        "indicator": "Maestro manipulador, operaciones 100% engaño humano",
-        "defense": "Formación anti-phishing, protección insider, detección de perfiles falsos, monitoreo de redes sociales."
+        "indicator": "Master manipulator, 100% human deception operations",
+        "defense": "Anti-phishing training, insider protection, fake profile detection, social media monitoring."
       }
     },
     "Narcissism": {
       "1": {
-        "indicator": "Funcional: elige víctimas por facilidad, no por estatus",
-        "defense": "Proteger los activos más vulnerables; análisis de postura general."
+        "indicator": "Functional: chooses victims by ease, not status",
+        "defense": "Protect most vulnerable assets; general posture analysis."
       },
       "2": {
-        "indicator": "Orgullo técnico en foros privados",
-        "defense": "Monitorear foros underground para detectar señales tempranas."
+        "indicator": "Technical pride in private forums",
+        "defense": "Monitor underground forums to detect early signals."
       },
       "3": {
-        "indicator": "Impulsado por estatus: elige blancos de alto perfil",
-        "defense": "Priorizar defensa en infraestructuras críticas y objetivos de prestigio."
+        "indicator": "Status-driven: chooses high-profile targets",
+        "defense": "Prioritize defense in critical infrastructures and prestige objectives."
       },
       "4": {
-        "indicator": "Jactancioso: deja mensajes/firmas para mostrar superioridad",
-        "defense": "Revisar SIEM en busca de mensajes incrustados, comentarios o modificaciones inusuales en sistemas."
+        "indicator": "Boastful: leaves messages/signatures to show superiority",
+        "defense": "Review SIEM for embedded messages, comments or unusual modifications in systems."
       },
       "5": {
-        "indicator": "Exhibicionista, ridiculiza públicamente",
-        "defense": "Monitorear leaks, dark web y comunicados; defensas de reputación; detección temprana en intrusiones “teatrales”."
+        "indicator": "Exhibitionist, publicly ridicules",
+        "defense": "Monitor leaks, dark web and statements; reputation defenses; early detection in 'theatrical' intrusions."
       }
     },
     "Psychopathy": {
       "1": {
-        "indicator": "Averso al riesgo: prioriza sigilo, evita técnicas ruidosas",
-        "defense": "Difícil detectar por alertas; requiere hunting de comportamiento muy sutil."
+        "indicator": "Risk-averse: prioritizes stealth, avoids noisy techniques",
+        "defense": "Difficult to detect by alerts; requires very subtle behavioral hunting."
       },
       "2": {
-        "indicator": "Cauteloso: evita riesgos, salvo menores y controlados",
-        "defense": "Requiere hunting avanzado; difícil de detectar por ruido → usar EDR/XDR."
+        "indicator": "Cautious: avoids risks, except minor and controlled ones",
+        "defense": "Requires advanced hunting; difficult to detect by noise → use EDR/XDR."
       },
       "3": {
-        "indicator": "Riesgo calculado: usa alguna técnica ruidosa por recompensa alta",
-        "defense": "Preparar respuesta ante incidentes de alto impacto; correlaciones con eventos inusuales."
+        "indicator": "Calculated risk: uses some noisy technique for high reward",
+        "defense": "Prepare response to high-impact incidents; correlations with unusual events."
       },
       "4": {
-        "indicator": "Arriesgado: confía en evadir captura, usa TTPs peligrosas con frecuencia",
-        "defense": "Detección tradicional (IDS/IPS) aún útil; reforzar correlaciones con alertas “ruidosas”."
+        "indicator": "Risky: trusts in evading capture, frequently uses dangerous TTPs",
+        "defense": "Traditional detection (IDS/IPS) still useful; reinforce correlations with 'noisy' alerts."
       },
       "5": {
-        "indicator": "Temerario, usa TTPs ruidosas sin cálculo",
-        "defense": "Alto valor de detección tradicional (IDS/IPS), ya que no se preocupa por ocultar huellas."
+        "indicator": "Reckless, uses noisy TTPs without calculation",
+        "defense": "High value of traditional detection (IDS/IPS), as it doesn't care about hiding tracks."
       }
     },
     "Sadism": {
       "1": {
-        "indicator": "Indiferente: si la víctima paga, devuelve archivos",
-        "defense": "Estrategia de backup + plan de recuperación puede ser suficiente."
+        "indicator": "Indifferent: if victim pays, returns files",
+        "defense": "Backup strategy + recovery plan may be sufficient."
       },
       "2": {
-        "indicator": "Burlón: lenguaje condescendiente, pero pago sigue siendo el objetivo",
-        "defense": "Preparar comunicación de crisis frente a ataques extorsivos."
+        "indicator": "Mocking: condescending language, but payment remains the objective",
+        "defense": "Prepare crisis communication against extortion attacks."
       },
       "3": {
-        "indicator": "Juego de poder: presiona, renegocia, sube precios",
-        "defense": "Preparar estrategia de negociación y planes de backup alternativos."
+        "indicator": "Power game: pressures, renegotiates, raises prices",
+        "defense": "Prepare negotiation strategy and alternative backup plans."
       },
       "4": {
-        "indicator": "Cruel: prolonga sufrimiento, falsas esperanzas, humillaciones",
-        "defense": "Planes de resiliencia y negociación; preparación psicológica/comunicacional en incidentes."
+        "indicator": "Cruel: prolongs suffering, false hopes, humiliations",
+        "defense": "Resilience and negotiation plans; psychological/communication preparation in incidents."
       },
       "5": {
-        "indicator": "Atormentador: destruye datos por placer",
-        "defense": "Backups inmutables y planes de resiliencia imprescindibles: no confiar en negociación."
+        "indicator": "Tormentor: destroys data for pleasure",
+        "defense": "Immutable backups and essential resilience plans: don't trust negotiation."
       }
     }
   }
